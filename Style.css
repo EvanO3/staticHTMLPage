@@ -5,12 +5,25 @@ body{
 
 /* Styling the Nav bar*/
 .navbar{
-   list-style: none;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap:10px;
    
+  
+   
+}
+
+/* Styling of list items*/
+.Links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap:10px;
+}
+
+.Links a{
+ list-style: none;
+ text-decoration: none;
+ color:black
+ 
+    
 }
 
 /*Styling the title*/
@@ -19,5 +32,13 @@ body{
     display:flex;
     justify-content: center;
     justify-content: space-between;
+    padding:10px;
+}
+
+
+.Icons{
+    display: flex;
+    justify-content:flex-end ;
+    align-items:center;
     padding:10px;
 }
