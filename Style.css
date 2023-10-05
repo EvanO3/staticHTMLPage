@@ -85,3 +85,18 @@ background-color:#003566;
 .sale-links a:hover{
   color: grey;
 }
+
+/*Main content*/
+.ClothingOne{
+    display: flex;
+    flex-direction:column;
+
+}
+.Sizes{
+    display: flex;
+    gap:10px;
+}
+.Main-content{
+   display: flex;
+ 
+}
