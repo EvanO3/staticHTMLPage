@@ -1,5 +1,10 @@
+:root{
+    --font-color:#fefae0; 
+}
+
+
 body{
-   
+   background-color:#FFFAF0;
 }
 
 
@@ -14,11 +19,11 @@ body{
 .Links {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
    gap:10px;
 }
 
-.Links a{
+.Links a , .sale-links a{
  list-style: none;
  text-decoration: none;
  color:black
@@ -30,8 +35,8 @@ body{
 
 .main-Title{
     display:flex;
-    justify-content: center;
     justify-content: space-between;
+    align-items: center;
     padding:10px;
 }
 .main-Title h1{
@@ -39,12 +44,39 @@ body{
 }
 
 /* Icons on right side of page*/
-
-
-.Icons{
+.IconContainer{
     display: flex;
     justify-content:flex-end ;
     align-items:center;
-    gap:10px;
-    padding:10px;
+}
+
+.Icons{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ margin-top:-20px;
+ gap:10px;
+}
+/*Style for sale links*/
+.sale{
+    display: flex;
+   justify-content: space-evenly;
+   gap: 10px;
+color:var(--font-color);
+padding:15px;
+background-color:#003566;
+}
+
+.sale-links{
+    display:flex;
+    gap: 20px;
+    
+}
+
+.sale-links a{
+    color:var(--font-color);
+}
+
+.sale-links a:hover{
+  color: grey;
 }
