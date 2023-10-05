@@ -23,7 +23,7 @@ body{
    gap:10px;
 }
 
-.Links a , .sale-links a{
+.Links a , .sale-links a , .sign-up a{
  list-style: none;
  text-decoration: none;
  color:black
@@ -41,6 +41,11 @@ body{
 }
 .main-Title h1{
       font-size:30px;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    gap:10px;
 }
 
 /* Icons on right side of page*/
