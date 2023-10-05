@@ -1,0 +1,23 @@
+body{
+   
+}
+
+
+/* Styling the Nav bar*/
+.navbar{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+   
+}
+
+/*Styling the title*/
+
+.main-Title{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding:10px;
+}
