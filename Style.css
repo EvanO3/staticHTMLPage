@@ -98,5 +98,19 @@ background-color:#003566;
 }
 .Main-content{
    display: flex;
+   gap:30px;
  
+}
+
+.clothingTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clothingImg{
+    width:400px;
+   
 }
