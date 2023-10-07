@@ -5,6 +5,7 @@
 
 body{
    background-color:#FFFAF0; 
+  
 }
 .logo{
     border-radius: 50%;
@@ -27,7 +28,7 @@ margin:10px;
 }
 
 .Links a , .sale-links a , .sign-up a{
- list-style: none;
+   
  text-decoration: none;
  color:black
  
@@ -125,6 +126,24 @@ input{
     padding:10px;
     margin:10px;
 }
+
+.description{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+.description h1{
+    margin:20px;
+    font-size: 23px;
+    font-family:"Lobster";
+}
+
+.description .des-list{
+    list-style-type: circle;
+    margin-left:20px;
+}
+
 
 
 .RelatedItem{
