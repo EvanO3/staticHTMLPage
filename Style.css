@@ -4,16 +4,19 @@
 
 
 body{
-   background-color:#FFFAF0;
+   background-color:#FFFAF0; 
+}
+.logo{
+    border-radius: 50%;
+}
+.Titles{
+   font-family:"Lobster";
+
+margin:10px;
 }
 
 
 /* Styling the Nav bar*/
-.navbar{
-   
-  
-   
-}
 
 /* Styling of list items*/
 .Links {
@@ -33,7 +36,8 @@ body{
 
 /*Styling the title*/
 
-.main-Title{
+.main-Title{   
+
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -91,6 +95,7 @@ background-color:#003566;
     display: flex;
     flex-direction:column;
     margin:10px;
+    
 
 }
 .Sizes{
@@ -112,13 +117,22 @@ background-color:#003566;
 }
 
 .clothingImg{
-    width:400px;
+    width:350px;
    
 }
 
 input{
     padding:10px;
     margin:10px;
+}
+
+.RelatedItem{
+display: flex;
+   margin-left:80px;
+   padding:50px;
+   justify-content: flex-end;
+   font-family: "Lobster";
+   font-size:30px;
 }
 
 /*Adding mobile responsiveness*/
@@ -167,6 +181,10 @@ input{
     }
     .Icons img {
         width: 20px;
+    }
+    .logo{
+        border-radius: 50%;
+        width:20px;
     }
 
 }
