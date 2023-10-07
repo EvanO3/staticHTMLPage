@@ -90,6 +90,7 @@ background-color:#003566;
 .ClothingOne{
     display: flex;
     flex-direction:column;
+    margin:10px;
 
 }
 .Sizes{
@@ -115,3 +116,7 @@ background-color:#003566;
    
 }
 
+input{
+    padding:10px;
+    margin:10px;
+}
