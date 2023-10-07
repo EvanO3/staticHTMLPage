@@ -126,15 +126,18 @@ input{
     margin:10px;
 }
 
-.RelatedItem{
-display: flex;
-   margin-left:80px;
-   padding:50px;
-   justify-content: flex-end;
-   font-family: "Lobster";
-   font-size:30px;
-}
 
+.RelatedItem{
+    font-size: 13px;
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--font-color);
+    background-color: #003566;
+    align-items: center;
+    height: 40px; 
+
+}
 /*Adding mobile responsiveness*/
 /*This allows for screens up to 390px to recieve responsive interaction to our website*/
 @media  screen and(max-width:390px) {
